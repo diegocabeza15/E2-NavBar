@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit";
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom right, #f3b225, rgb(192, 125, 2));
+    padding: 8px 20px;
+    box-shadow: blue 0px 2px 20px;
+    margin: 10px 70px;
+    border-radius: 10px;
+}
+
+#navbar-logo {
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    flex: auto;
+    justify-content:space-evenly;
+    margin: 0% 0% 0% 50%;
+    
+}
+
+nav a {
+    color: rgb(0, 0, 168);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+    border-bottom: 2px solid rgb(0, 0, 168);
+}
+
+nav a:hover {
+    color: #ff0000;
+    border-bottom: 2px solid rgb(255, 0, 0);
+
+}
