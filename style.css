@@ -1,22 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Oswald";
 }
 
 body{
-    font-family: "Outfit";
+    margin: 10px 70px;
+    padding: 8px 20px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to bottom right, #f3b225, rgb(192, 125, 2));
-    padding: 8px 20px;
-    box-shadow: blue 0px 2px 20px;
-    margin: 10px 70px;
+    background: linear-gradient(to bottom right, #FDC401, #FE4210);
+    box-shadow: rgba(223, 105, 9, 0.795) 0px 2px 20px;
     border-radius: 10px;
 }
 
@@ -27,22 +28,85 @@ header {
 nav {
     display: flex;
     flex: auto;
-    justify-content:space-evenly;
-    margin: 0% 0% 0% 50%;
-    
+    justify-content: space-around;
+    margin: 0 0 0 50%;
+    width: 100vh;
+    flex-direction: row;
+
 }
 
 nav a {
-    color: rgb(0, 0, 168);
+    color: #1B2161;
     padding: 5px;
     text-decoration: none;
     font-size: 1rem;
     transition: 0.3s;
-    border-bottom: 2px solid rgb(0, 0, 168);
+    border-bottom: 2px solid #1B2161;
+    margin: 0 0rem;
+    align-items: end;
 }
 
 nav a:hover {
-    color: #ff0000;
+    color: rgb(255, 0, 0);
     border-bottom: 2px solid rgb(255, 0, 0);
 
+}
+
+#sec-portada{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#sec-portada>article{
+    width: 50%;
+    padding: 10%;
+}
+
+#sec-portada>article>h1{
+    font-size: 1.5rem;
+}
+
+#sec-portada>article>p{
+    padding-top: 0.5rem;
+}
+
+#sec-portada>fieldset{
+    border: none;
+    padding: 10%;
+    width: 50%;
+    margin-top: -15%;
+}
+
+#sec-portada>fieldset>button{
+    background-color: transparent;
+    font-family: "Oswald";
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    transition: 0.2s;
+    background-color: #FDC401;
+}
+
+#sec-portada>fieldset>button:hover{
+    background-color:#FE4210;
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+#sec-portada>picture{
+    position: absolute;
+    right: 0;
+    margin-right: 200px;
+    top: 8rem;
+}
+
+#sec-portada>picture>img{
+    width: 300px;
+    padding: 10px;
+}
+
+#sec-info{
+    text-align: center;
+    margin: 0 40px;
 }
