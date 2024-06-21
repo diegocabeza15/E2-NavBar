@@ -2,46 +2,133 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Entregable</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
-        <img id="navbar-logo" src="./assets/img/clk_bell-logo.png" alt="Logo">
+        <picture>
+            <!-- Logo Header -->
+            <img id="navbar-logo" src="./assets/img/clk_bell-logo.png" alt="Logo" />
+        </picture>
         <nav>
+            <!-- Navegacion Header -->
             <a href="#">Inicio</a>
-            <a href="#">Productos</a>
-            <a href="#">Nosotros</a>
+            <a href="#cards-sec">Productos</a>
+            <a href="#contacto">Contacto</a>
         </nav>
     </header>
 
-    <section id="sec-portada">
+    <main id="sec-portada">
         <article>
+            <!-- Titulo Y Parrafo -->
             <h1>Disfruta del Sabor Auténtico de Cluckin' Bell</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, blanditiis!</p>
+            <p>
+                ¡No busques más allá! Somos la cadena de comida rápida favorita de
+                todo San Andreas, ofreciendo deliciosos pollos fritos, crujientes
+                papas fritas y refrescantes bebidas a precios increíbles.
+            </p>
+            <fieldset>
+                <!-- Botones Call To Action -->
+                <button type="button">Conocer Mas</button>
+                <button type="button">Experimentar</button>
+            </fieldset>
         </article>
-        <fieldset>
-            <button type="button">Boton 1</button>
-            <button type="button">Boton 2</button>
-        </fieldset>
-        <picture>
-            <img src="/assets/img/logo-cb.webp" alt="Logo sin texto">
-        </picture>
-    </section>
+        <aside>
+            <picture>
+                <!-- Logo Cluckin -->
+                <img src="./assets/img/logo-cb.webp" alt="Logo sin texto" />
+            </picture>
+        </aside>
+    </main>
 
     <section id="sec-info">
+        <!-- Breve Informacion -->
+        <p>
+            Cluckin’ Bell es una cadena global de restaurantes de comida rápida que
+            se especializa en deliciosas porciones de pollo frito, ofreciendo sabor
+            y diversión a todos los clientes. Conocidos por nuestro eslogan
+            “¡Cock-a-doodle-do!”, nos enorgullecemos de servir comida sabrosa con un
+            toque único.
+        </p>
+    </section>
+
+    <section id="cards-sec">
         <article>
-            <p>
-                Cluckin’ Bell es una cadena global de restaurantes de comida rápida que se especializa en deliciosas
-                porciones de pollo frito, ofreciendo sabor y diversión a todos los clientes. Conocidos por nuestro
-                eslogan
-                “¡Cock-a-doodle-do!”, nos enorgullecemos de servir comida sabrosa con un toque único.
-            </p>
+            <!-- Titulos -->
+            <h1>Menu's</h1>
+            <p>¡Aquí podrás encontrar algunos de nuestros menús disponibles!</p>
         </article>
-    </section> 
+        <aside>
+            <!-- Seccion De Cards -->
+
+            <article class="card">
+                <picture>
+                    <img src="./assets/img/menu-01.png" alt="Avatar" />
+                </picture>
+                <ul class="container">
+                    <li>
+                        <h4>Cluckin' Little Meal</h4>
+                    </li>
+                    <li>
+                        <p>$2 USD</p>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <picture>
+                    <img src="./assets/img/menu-02.png" alt="Avatar" />
+                </picture>
+                <ul class="container">
+                    <li>
+                        <h4>Cluckin' Big Meal</h4>
+                    </li>
+                    <li>
+                        <p>$5 USD</p>
+                    </li>
+                </ul>
+            </article>
+        </aside>
+    </section>
+
+    <section id="contacto">
+        <article>
+            <h3>Nuestra Ubicacion</h3>
+        </article>
+        <aside>
+            <ul>
+                <p>Informacion</p>
+                <li>San Diego Av.FallStreet 1314</li>
+                <li>gorragorra.AD.AD@yahoo.com</li>
+                <li>+01 123 456 789</li>
+            </ul>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429155.3376786328!2d-117.4386271756457!3d32.824697639919044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e4b%3A0xd3a21fdfd15df79!2sSan%20Diego%2C%20CA%2C%20USA!5e0!3m2!1sen!2sar!4v1718405582187!5m2!1sen!2sar"
+                style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </aside>
+
+        <nav>
+            <a href="">
+                <img src="assets/others/icons/instagram.svg" alt="" />
+            </a>
+            <a href="">
+                <img src="assets/others/icons/twiter.svg" alt="" />
+            </a>
+            <a href="">
+                <img src="assets/others/icons/facebook.svg" alt="" />
+            </a>
+        </nav>
+    </section>
+
+    <footer>
+        <img src="./assets/img/logo-cb.webp" alt="">
+        <p>© 1982-2024 Cluckin’ Bell</p>
+    </footer>
 </body>
 
 </html>
