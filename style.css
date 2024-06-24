@@ -18,6 +18,7 @@ html {
 
 body {
     background: linear-gradient(to right, #fdc401, #fe4210);
+    background-size: cover;
 }
 
 header {
@@ -426,10 +427,22 @@ footer>p {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 560px) {
+    body{
+        background-repeat: none;
+        background-size: cover;
+    }
+    header nav a{
+        font-size: 1rem;
+        padding-right: 1rem;
+    }
+
     #sec-portada article h1{
-        font-size: 3rem;
+        font-size: 2.2rem;
         padding-top: 2rem;
+    }
+    #sec-portada article p{
+        font-size: 1.5rem;
     }
     #sec-portada article fieldset{
         padding-top: 2rem;
@@ -446,6 +459,9 @@ footer>p {
     }
     #contacto aside ul li{
         font-size: 1.2rem;
+    }
+    #contacto aside iframe{
+        display: none;
     }
     
 }
