@@ -441,7 +441,6 @@ footer>p {
         background: linear-gradient(to right, #fdc401, #fe4210);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 100%;
         overflow-x: hidden;
     }
 
@@ -449,24 +448,24 @@ footer>p {
         font-size: 1rem;
         padding-right: 1rem;
     }
-
+    
     #sec-portada article h1 {
         font-size: 2.5rem;
         padding-top: 3rem;
     }
 
     #sec-portada article p {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         padding-top: 1.5rem;
     }
 
     #sec-portada article fieldset {
-        padding-top: 2rem;
+        padding-top: 3rem;
     }
 
     #sec-info p {
-        padding-top: 8rem;
-        padding-bottom: 8rem;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
         font-size: 1.3rem;
     }
 
@@ -474,11 +473,11 @@ footer>p {
         flex-direction: column;
         padding-top: 1rem;
     }
+    
     #contacto article h3{
         padding-top: 2.5rem;
         font-size: 2.5rem;
     }
-
     #contacto aside ul p {
         font-size: 2rem;
         padding-top: 3rem;
@@ -500,7 +499,7 @@ footer>p {
     }
 
     footer img{
-        width: 20%;
+        height: 80px;
     }
 
     footer p{
