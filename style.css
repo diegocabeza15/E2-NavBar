@@ -19,7 +19,7 @@ html {
 body {
     background: linear-gradient(to right, #fdc401, #fe4210);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat:space;
 }
 
 header {
@@ -485,8 +485,9 @@ footer>p {
 
     #contacto nav a img{
         display: flex;
+        align-items: center;
         justify-content: center;
-        width: 25px;
+        width: 15px;
     }
 
 }
