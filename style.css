@@ -19,6 +19,7 @@ html {
 body {
     background: linear-gradient(to right, #fdc401, #fe4210);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -385,83 +386,105 @@ footer>p {
 }
 
 @media (max-width: 1024px) {
-    #sec-portada{
+    #sec-portada {
         width: 100vw;
         height: auto;
         display: flex;
         flex-direction: column;
         padding-top: 4rem;
     }
-    #sec-portada article{
+
+    #sec-portada article {
         width: 100%;
         display: flex;
         flex-direction: column;
         font-size: 1rem;
         padding: 0;
     }
-    #sec-portada aside{
+
+    #sec-portada aside {
         display: none;
     }
-    #sec-info{
+
+    #sec-info {
         height: auto;
     }
-    #sec-info p{
+
+    #sec-info p {
         margin: 0;
     }
-    #cards-sec{
+
+    #cards-sec {
         height: auto;
         margin-top: 1rem;
         margin-bottom: 1rem;
         gap: 1rem;
     }
-    #cards-sec aside{
+
+    #cards-sec aside {
         width: 100%;
         height: auto;
     }
-    #cards-sec article{
+
+    #cards-sec article {
         padding: 0;
     }
-    #contacto{
+
+    #contacto {
         height: auto;
         width: 100vw;
     }
 }
 
-@media (max-width: 560px) {
-    body{
-        background-repeat: none;
+@media (max-width: 480px) {
+    body {
+        background: linear-gradient(to right, #fdc401, #fe4210);
         background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
     }
-    header nav a{
+
+    header nav a {
         font-size: 1rem;
         padding-right: 1rem;
     }
 
-    #sec-portada article h1{
+    #sec-portada article h1 {
         font-size: 2.2rem;
         padding-top: 2rem;
     }
-    #sec-portada article p{
+
+    #sec-portada article p {
         font-size: 1.5rem;
     }
-    #sec-portada article fieldset{
+
+    #sec-portada article fieldset {
         padding-top: 2rem;
     }
-    #sec-info p{
+
+    #sec-info p {
         font-size: 1.5rem;
     }
-    #cards-sec aside{
+
+    #cards-sec aside {
         flex-direction: column;
         padding-top: 1rem;
     }
-    #contacto aside ul p{
+
+    #contacto aside ul p {
         font-size: 2rem;
     }
-    #contacto aside ul li{
+
+    #contacto aside ul li {
         font-size: 1.2rem;
     }
-    #contacto aside iframe{
+
+    #contacto aside iframe {
         display: none;
     }
-    
+
+    #contacto nav a{
+        width: 15px;
+    }
+
 }
