@@ -484,7 +484,9 @@ footer>p {
     }
 
     #contacto nav a img{
-        width: 15px;
+        display: flex;
+        justify-content: center;
+        width: 12px;
     }
 
 }
